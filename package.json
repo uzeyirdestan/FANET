@@ -1,0 +1,30 @@
+{
+  "name": "ar-drone-gps",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ar-drone": "git://github.com/felixge/node-ar-drone.git#master",
+    "node-vincenty": "0.0.6",
+    "socket.io": "~0.9.16",
+    "express": "~3.4.0",
+    "dronestream": "~1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrew/ar-drone-gps"
+  },
+  "keywords": [
+    "nodecopter",
+    "gps"
+  ],
+  "author": "Andrew Nesbitt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew/ar-drone-gps/issues"
+  }
+}
